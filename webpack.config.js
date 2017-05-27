@@ -30,7 +30,7 @@ module.exports = {
         path: dir_build,
     },
     resolve: {
-        // Help webpack find `esnext` source code
+        // Help webpack find `PROPKEY_ESNEXT` source code
         mainFields: [PROPKEY_ESNEXT, 'browser', 'module', 'main'],
     },
     module: {
